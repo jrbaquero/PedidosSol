@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edit_fecha"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:hint="@string/str_fecha"
+                android:inputType="date"
+                android:focusable="false"
+                android:clickable="true"
+                android:layout_weight="1"
+                android:maxLines="1"
+                android:paddingEnd="4dp"
+                android:gravity="center"/>
+
+
+        <EditText
+            android:id="@+id/edit_hora"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_hora"
+            android:inputType="time"
+            android:focusable="false"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:paddingStart="4dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+
+<android.support.design.widget.TextInputLayout
+    android:id="@+id/edit_cliente"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_cliente"
+        android:inputType="text"
+
+        />
+</android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_descri_rapida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_descr_rapida"
+            android:inputType="text"
+
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_precio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_precioEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_precio"
+            android:inputType="numberDecimal"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_abono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edit_abonoEdit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_abono"
+            android:inputType="numberDecimal"/>
+    </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/txt_saldo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Saldo: $00.00"
+            />
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/edit_decripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/str_descricion"
+            />
+    </android.support.design.widget.TextInputLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"
+        >
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_cancelar"
+            android:textColor="@android:color/holo_red_dark"
+            style="?android:attr/borderlessButtonStyle"
+            />
+        <Button
+            android:id="@+id/btn_registrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_registrar"
+            android:textColor="@android:color/holo_red_dark"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </LinearLayout>
+</LinearLayout>

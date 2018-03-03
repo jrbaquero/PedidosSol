@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">PEDIDOS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detalle">DetalleActivity</string>
+
+    <string name="str_fecha">Ingrese Fecha</string>
+    <string name="str_hora">Ingrese Hora</string>
+    <string name="str_cliente">Ingrese el nombre del cliente</string>
+    <string name="str_descr_rapida">Ingrese una Descripcion Rapida</string>
+    <string name="str_qtyPersonas">Ingrese cantidad de personas</string>
+    <string name="str_precio">Ingrese el precio</string>
+    <string name="str_abono">Ingrese el abono</string>
+
+    <string name="str_cancelar">Cancelar</string>
+    <string name="str_registrar">Registrar</string>
+    <string name="str_registroPedido">Ingrese Nuevo Pedido</string>
+    <string name="str_descricion">Descripcion</string>
+
+    <string name="str_error_fecha">Debe ingresar fecha de entrega</string>
+    <string name="str_error_hora">Debe ingresar hora de entrega</string>
+    <string name="str_error_cliente">Debe ingresar nombre del cliente</string>
+    <string name="str_error_precio">Debe ingresar un valor</string>
+    <string name="str_error_abono">Debe ingresar un valor</string>
+    <string name="title_activity_segunda">SegundaActivity</string>
+    <string name="aqui_mes_seleccionado">AQUI MES SELECCIONADO</string>
+</resources>

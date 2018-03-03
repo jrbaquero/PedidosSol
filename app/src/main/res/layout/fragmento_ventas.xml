@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+
+      <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+          android:layout_columnWeight="1"
+          android:textStyle="bold"
+          android:gravity="center"
+          android:textSize="25sp"
+        android:text="MES"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="2018"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="#CCC"
+        android:layout_columnWeight="1"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="0.5dp"
+        android:background="#CCC"
+        android:layout_columnWeight="1"/>
+
+     <TextView
+         android:id="@+id/txt_enero_mes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+         android:textSize="15sp"
+         android:paddingStart="45dp"
+         android:paddingEnd="4dp"
+        android:text="ENERO"/>
+    <TextView
+        android:id="@+id/txt_enero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:gravity="end"
+        android:text="$00.00"/>
+
+
+    <TextView
+        android:id="@+id/txt_febrero_mes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="FEBRERO"/>
+    <TextView
+        android:id="@+id/txt_febrero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+    <TextView
+
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="MARZO"/>
+
+    <TextView
+        android:id="@+id/txt_marzo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="ABRIL"/>
+
+    <TextView
+        android:id="@+id/txt_abril"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="MAYO"/>
+
+    <TextView
+        android:id="@+id/txt_mayo"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="JUNIO"/>
+    <TextView
+        android:id="@+id/txt_junio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="JULIO"/>
+    <TextView
+        android:id="@+id/txt_julio"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="AGOSTO"/>
+    <TextView
+        android:id="@+id/txt_agosto"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:gravity="end"
+        android:text="$00.00"/>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="SEPTIEMBRE"/>
+    <TextView
+        android:id="@+id/txt_septiembre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="OCTUBRE"/>
+    <TextView
+        android:id="@+id/txt_octubre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="NOVIEMBRE"/>
+    <TextView
+        android:id="@+id/txt_noviembre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:textSize="15sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:text="DICIEMBRE"/>
+    <TextView
+        android:id="@+id/txt_diciembre"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:textSize="20sp"
+        android:paddingEnd="45dp"
+        android:text="$00.00"/>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="#CCC"
+        android:layout_columnWeight="1"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:background="#CCC"
+        android:layout_columnWeight="1"/>
+
+
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:text="TOTAL"
+        android:textSize="25sp"
+        android:paddingStart="45dp"
+        android:paddingEnd="4dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txt_total"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:gravity="end"
+        android:text="$00.00"
+        android:textSize="25sp"
+        android:paddingEnd="45dp"
+        android:textStyle="bold"/>
+
+
+</GridLayout>

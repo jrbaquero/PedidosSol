@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:padding="8dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+    <TextView
+        android:id="@+id/txt_cliente"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Cliente: "
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+    <ImageView
+        android:id="@+id/img_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_edit"/>
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCC"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/txt_fecha"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Fecha de Entrega: "
+            android:textSize="20sp"
+            android:layout_weight="2"
+            />
+        <TextView
+            android:id="@+id/txt_hora"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Hora: "
+            android:textSize="20sp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCC"
+        />
+
+    <TextView
+        android:id="@+id/txt_descr_rapida"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_descricion"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCC"/>
+    <TextView
+        android:id="@+id/txt_descripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/str_descricion"
+        android:textSize="20sp"
+        android:layout_weight="1"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCC"
+        />
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="3">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:hint="TOTAL"
+            android:textSize="20sp"
+            android:layout_columnSpan="2"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/txt_precio"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:hint="$ 00.00"
+            android:gravity="end"
+            android:textSize="20sp"
+            android:textStyle="bold"
+             />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:hint="Abono:"
+            android:textSize="20sp"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:id="@+id/txt_abono"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:hint="$ 00.00"
+            android:gravity="end"
+            android:textSize="20sp"
+            />
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="2"
+            android:hint="Saldo"
+            android:textSize="20sp"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:id="@+id/txt_saldo"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:hint="$ 00.00"
+            android:gravity="end"
+            android:textSize="20sp"
+            />
+
+    </GridLayout>
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#CCC"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <Button
+            android:id="@+id/btn_cancelar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/str_cancelar"
+            android:layout_weight="1"
+
+            />
+        <Button
+            android:id="@+id/btn_entregado"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="ENTREGADO"
+
+            />
+    </LinearLayout>
+
+</LinearLayout>
