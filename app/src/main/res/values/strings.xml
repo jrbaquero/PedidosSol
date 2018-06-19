@@ -27,4 +27,22 @@
     <string name="str_error_abono">Debe ingresar un valor</string>
     <string name="title_activity_segunda">SegundaActivity</string>
     <string name="aqui_mes_seleccionado">AQUI MES SELECCIONADO</string>
+    <string name="exportar_datos">Exportar Datos</string>
+
+    <string name="mes01">ENERO</string>
+    <string name="mes02">FEBRERO</string>
+    <string name="mes03">MARZO</string>
+    <string name="mes04">ABRIL</string>
+    <string name="mes05">MAYO</string>
+    <string name="mes06">JUNIO</string>
+    <string name="mes07">JULIO</string>
+    <string name="mes08">AGOSTO</string>
+    <string name="mes09">SEPTIEMBRE</string>
+    <string name="mes10">OCTUBRE</string>
+    <string name="mes11">NOVIEMBRE</string>
+    <string name="mes12">DICIEMBRE</string>
+    <string name="txt_mes">MES</string>
+    <string name="txt_0000">$00.00</string>
+    <string name="txt_total">TOTAL</string>
+
 </resources>
